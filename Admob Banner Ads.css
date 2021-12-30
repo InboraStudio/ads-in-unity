@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds.Api;
 
-public class BannerAds : MonoBehaviour
+public class AdmobBannerAds : MonoBehaviour
 {
     private BannerView bannerView;
     // Start is called before the first frame update
