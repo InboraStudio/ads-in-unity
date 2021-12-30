@@ -4,18 +4,18 @@ using System.Collections.Generic;
 using GoogleMobileAds.Api;
 using UnityEngine;
 
-public class AdScript : MonoBehaviour {
+public class AdmobvideoandrewardsAds : MonoBehaviour {
 
     private InterstitialAd interstitial_Ad;
     private RewardedAd rewardedAd;
-
+// this file created by alok games
     private string interstitial_Ad_ID;
     private string rewardedAd_ID;
 
     void Start () {
         interstitial_Ad_ID = "ca-app-pub-3940256099942544/1033173712";
         rewardedAd_ID = "ca-app-pub-3940256099942544/5224354917";
-
+// follow as on instagram @alok__games
         MobileAds.Initialize (initStatus => { });
 
         RequestInterstitial ();
