@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Advertisements;
  
-public class sdk : MonoBehaviour, IUnityAdsInitializationListener
+public class unity_sdk : MonoBehaviour, IUnityAdsInitializationListener
 {
     [SerializeField] string _androidGameId;
     [SerializeField] string _iOSGameId;
