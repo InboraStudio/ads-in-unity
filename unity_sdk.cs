@@ -3,9 +3,9 @@ using UnityEngine.Advertisements;
  
 public class unity_sdk : MonoBehaviour, IUnityAdsInitializationListener
 {
-    [SerializeField] string _androidGameId;
-    [SerializeField] string _iOSGameId;
-    [SerializeField] bool _testMode = true;
+    [SerializeField] string _androidGameId; // put your Id,s here
+    [SerializeField] string _iOSGameId; // put your IOS id here
+    [SerializeField] bool _testMode = true; // make it True, False on ads type
     private string _gameId;
  
     void Awake()
